@@ -36,7 +36,7 @@ $ python3 manage.py runserver 0.0.0.0:8000
 - Start the MQTT docker and run the subscriber
 ```bash
 $ cd MQTT/
-$ docker run -d -it -p 1883:1883 -v $(pwd)/mosquitto.conf:/mosquitto/configmosquitto.conf eclipse-mosquitto
+$ docker run -d -it -p 1883:1883 -v $(pwd)/mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto
 $ python3 subscriber.py
 ```
 ## Using `curl` to perform client request
