@@ -1,0 +1,5 @@
+REST/db.sqlite3
+REST/tutorial/__pycache__/
+REST/mysite/__pycache__/
+MQTT/build/
+gRPC/build/

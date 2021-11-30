@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+service LogsRetriever{
+    rpc Compute(LogsRequest) returns (LogsResponse);
+}
+
+message LogsRequest{
+}
+
+message LogsResponse{
+    repeated int64 value = 1;
+}
